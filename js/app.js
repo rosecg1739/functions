@@ -42,7 +42,17 @@ function sumArray(arr) {
 
 console.log(sumArray([5,4,2]));
 
+// problem 5
 
+function multiplyArray(arr) {
+     let num = 1;
+     for (let i = 0; i < arr.length; i++) {
+        num = num * arr[i];
+        }
+        return num;
+    }
+
+    console.log(sumArray([2,4,5]));
 
         
     
