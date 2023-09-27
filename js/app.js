@@ -13,7 +13,7 @@ function maxOfTwoNumbers(x, y) {
 console.log(maxOfTwoNumbers(3, 9));
 
 //  problem 2
-2. fuction maxOfTwoNumbers(x, y, z) {
+ function maxOfTwoNumbers(x, y, z) {
     if (x>=y ) && (y>=x)
      return x; {
      else if (y>=z) && (z>=y)
@@ -21,15 +21,20 @@ console.log(maxOfTwoNumbers(3, 9));
     else if (x>=z) && (z>=x)
      return z;}
     }
-
     console.log(maxOfTwoNumbers)(x, y, z);
+// problem 3
+     function isCharAVowel(p) {
+     let result = p =="a" || p == "e" || p == "i" || p == "o" || p == "u";
+     return result;
+}
+console.log(isCharAVowel(i));
+console.log(isCharAVowel(v));
 
-
-
+//problem 4 
 
 
 
         
-    }
+    
 
-}
+
