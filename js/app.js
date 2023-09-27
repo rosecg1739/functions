@@ -53,7 +53,15 @@ function multiplyArray(arr) {
     }
 
     console.log(sumArray([2,4,5]));
+     
+    // problem 6
 
+    let len = function(x,a,d) {
+      return arguments.length;
+    }
+console.log(len);
+
+// problem 7
         
     
 
