@@ -1,26 +1,35 @@
-console.log("it works !!");
-
-// defining a function
-// declaring a function
-// creationg reusibale block of code
-// to be used in a later time in the porogram
-
-function sayHello() {
-
-console.log("say hello");
+1. // 1.
+function maxOfTwoNumbers(x, y) {
+  if (x >= y) {
+    return x;
+  } else {
+    return y;
+  }
+  
+  // or more "elegantly" using the fantastic ternary expression!
+  // return  x >= y ? x : y;
 }
 
-sayHello();
- 
-// write the function name ()
-// runs the block of code
+console.log(maxOfTwoNumbers(3, 9));
 
-function sayGoodbye(personsName) {
-    console.log(`goodbye ${personsName}`)
+//  problem 2
+2. fuction maxOfTwoNumbers(x, y, z) {
+    if (x>=y ) && (y>=x)
+     return x; {
+     else if (y>=z) && (z>=y)
+     return y;{
+    else if (x>=z) && (z>=x)
+     return z;}
+    }
+
+    console.log(maxOfTwoNumbers)(x, y, z);
+
+
+
+
+
+
+        
+    }
+
 }
-
-console.log(`adios, Laura`);
-console.log(`chao. Becky`);
-console.log(`Goodbye, Chad`);
-console.log(`peace, Frankie`);
-
